@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    
+    <hidden ref="idBook"/>
+    
+    <input ref="title">
+        <label>Title :</label>
+        <alert type="required">The title is required</alert>        
+    </input>
+    
+    <input ref="authorName">
+        <label>Author's name</label>
+        <alert type="required">The author's name is required</alert> 
+    </input>
+    
+    <input ref="authorFirstname">
+        <label>Author's firstname</label>
+        <alert type="required">The author's firstname is required</alert> 
+    </input>
+    
+    <input ref="edition">
+        <label>Edition :</label>
+    </input>
+    
+    <textarea ref="summary">
+        <label>Summary :</label>
+        <help>Try to be brief !</help>
+    </textarea>
+    
+    <captcha ref="antispam">
+        <label>Vérification anti-spam</label>
+    </captcha>
+    
+    <submit ref="submit">
+        <label>Enregistrer</label>
+    </submit>
+    
+</form>
+

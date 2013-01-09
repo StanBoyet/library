@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="book" realname="book" primarykey="idBook" />
+        <foreigntable name="author" realname="author" primarykey="idAuthor" onforeignkey="idAuthor" />
+    </datasources>
+    <record>
+        <property name="idBook" fieldname="idBook" datatype="int" autoincrement="true"/>
+        <property name="title" fieldname="title" datatype="varchar" required="true" maxlength="50"/>
+        <property name="idAuthor" fieldname="idAuthor" datatype="int" required="true"/>
+        <property name="edition" fieldname="edition" datatype="varchar" required="true" maxlength="50"/>
+        <property name="summary" fieldname="summary" datatype="text" required="true"/>
+                
+        <property name="authorName" fieldname="name" datatype="varchar" table="author"/>
+        <property name="authorFirstname" fieldname="firstname" datatype="varchar" table="author"/>
+        <property name="idAuthor" fieldname="idAuthor" datatype="int" autoincrement="true" table="author"/>
+        
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

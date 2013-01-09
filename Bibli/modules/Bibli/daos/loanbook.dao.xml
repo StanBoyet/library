@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        <primarytable name="loanBook" realname="loanBook" primarykey="idLoanBook" />
+        <foreigntable name="user" realname="user" 
+                      primarykey="idUser" onforeignkey="idUser" />
+        <foreigntable name="book" realname="book" 
+                      primarykey="idBook" onforeignkey="idBook" />
+    </datasources>
+    <record>
+        <property name="idLoanBook" fieldname="idLoanBook" datatype="int" autoincrement="true"/>
+        <property name="idUser" fieldname="idUser" datatype="int" required="true"/>
+        <property name="idBook" fieldname="idBook" datatype="int" required="true"/>
+        
+        <property name="name" fieldname="name" datatype="varchar" table="user"/>
+        <property name="bookTitle" fieldname="title" datatype="varchar" table="book"/>
+        
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+    </record>
+    <factory>
+        <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>

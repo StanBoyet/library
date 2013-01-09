@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://jelix.org/ns/dao/1.0" uri="jelix.org/ns/dao/1.0/index"/>
+    <system systemId="http://jelix.org/ns/forms/1.1" uri="jelix.org/ns/forms/1.1/index"/>
+</catalog>

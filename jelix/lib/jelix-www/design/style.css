@@ -1,0 +1,65 @@
+
+/* ---------------------------------------------------
+---- Selecteur d'attribut pour le lien supprimer' ----
+--------------------------------------------------- */
+a.deleteLink{
+    font-weight: 900;
+    color: red;
+}
+
+
+/* ---------------------------------------------------------
+-- Pseudos-classes pour alterner l'affichage de éléments' --
+--------------------------------------------------------- */
+
+section li:nth-child(2N+1){
+    list-style-type:square;
+}
+
+
+/* --------------------------------
+---- Sélecteurs de descendance ----
+-------------------------------- */
+
+h2.subtitle{
+    font-family: Helvetica, Arial, sans-serif;
+    color:darkblue;
+}
+
+ul .authorName, ul .authorFirstname{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+section .authorName{
+    text-transform: uppercase;
+}
+
+section .summary{
+    font-style: oblique;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+section .summary:first-letter{
+    font-weight: 800;
+    size: 40px;
+    padding-right: 1px;
+}
+
+.jforms-error-list, .error{
+    list-style-type: none !important;
+    text-align: center;
+}
+
+#sidebar{
+    position:absolute;
+    white-space: normal;
+    max-width: 12%; 
+}
+
+#sidebar.floatable{
+    position:fixed;
+    top:5px;
+}

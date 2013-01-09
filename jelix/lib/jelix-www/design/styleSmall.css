@@ -1,0 +1,11 @@
+/* 
+    Document   : styleSmall
+    Created on : 8 janv. 2013, 22:28:38
+    Author     : Stan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#sidebar{
+    display: none;
+}

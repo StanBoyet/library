@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+    <datasources>
+        
+        <primarytable name="loan" realname="loan" primarykey="idLoan" />
+        <optionalforeigntable name="publication" realname="publication" 
+                      primarykey="idPublication" onforeignkey="idLoanedPublication" />
+        <optionalforeigntable name="book" realname="book" 
+                      primarykey="idBook" onforeignkey="idLoanedBook" />
+        <foreigntable name="user" realname="user" 
+                      primarykey="idUser" onforeignkey="idUser" />
+        
+    </datasources>
+    
+    <record>
+        
+        <property name="idLoan" fieldname="idLoan" datatype="int" required="true"/>
+        <property name="idUser" fieldname="idUser" datatype="int" required="true"/>
+        <property name="idLoanedPublication" fieldname="idLoanedPublication" datatype="int" required="true"/>
+        <property name="idLoanedBook" fieldname="idLoanedBook" datatype="int" required="true"/>
+        <property name="name" fieldname="name" datatype="varchar" table="user"/>
+<!--        <property name="titleBook" fieldname="title" datatype="varchar" table="book"/>
+        <property name="titlePublication" fieldname="title" datatype="varchar" table="publication"/>-->
+        
+        
+        <!--<property name="" fieldname="" datatype="string/int/float/date"
+        required="yes" maxlength="" minlength="" regexp="" sequence=""
+        updatepattern="" insertpattern="" selectpattern=""/>-->
+        
+    </record>
+    <factory>      
+        
+        <method type="select" distinct="true" name="getUniqueUsers">
+            <order>
+                <orderitem property="name" way="asc" />
+            </order>
+        </method> 
+    <!--<method name="findByStage" type="select/selectfirst/delete/update/php">
+            <parameter name="" />
+            <values>
+                <value property="" value="" />
+            </values>
+            <conditions logic="and/or">
+                <eq property="" value="" />
+            </conditions>
+            <order>
+                <orderitem property="" way="asc/desc" />
+            </order>
+            <limit offset="" count=""/>
+            <body><![CDATA[
+            ]]></body>
+        </method>-->
+    </factory>
+</dao>
