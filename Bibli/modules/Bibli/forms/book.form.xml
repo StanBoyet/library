@@ -2,18 +2,19 @@
 <form xmlns="http://jelix.org/ns/forms/1.1">
     
     <hidden ref="idBook"/>
+    <hidden ref="idAuthor"/>
     
     <input ref="title">
         <label>Title :</label>
         <alert type="required">The title is required</alert>        
     </input>
     
-    <input ref="authorName">
+    <input ref="authorName" readonly="true">
         <label>Author's name</label>
         <alert type="required">The author's name is required</alert> 
     </input>
     
-    <input ref="authorFirstname">
+    <input ref="authorFirstname" readonly="true">
         <label>Author's firstname</label>
         <alert type="required">The author's firstname is required</alert> 
     </input>
