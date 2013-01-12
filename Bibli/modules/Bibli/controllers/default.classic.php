@@ -170,6 +170,65 @@ class defaultCtrl extends jController {
         
     }
     
+    function newUser(){
+        
+        $rep = $this->getResponse('html');
+
+        $rep->bodyTpl = "newUser";
+        
+        $path = jApp::config()->urlengine['jelixWWWPath'];
+        
+        //Importation du thème CSS de Jelix
+        $rep->AddCssLink($path . 'design/jelix.css');
+        
+        //Importation du thème CSS de jQuery
+        $rep->AddCssLink($path . 'design/jquery-ui.css');
+
+        //Importation du thème CSS de Bootstrap
+        $rep->AddCssLink($path . 'design/bootstrap.css');
+        
+        //Importation du thème CSS de style
+        $rep->AddCssLink($path . 'design/style.css');
+        
+        //Importation du script jQuery
+        $rep->AddJsLink($path . 'js/jquery-1.8.3.js');
+        
+        //Importation du script jQuery UI
+        $rep->AddJsLink($path . 'js/jquery-ui-1.9.2.js');
+        
+        //Importation du script dédié
+        $rep->AddJsLink($path . 'js/script.js');
+               
+              
+        //Création du formulaire à partir du .xml
+        $newUserForm = jForms::create("Bibli~newUser");
+        
+        //$newUserForm->initFromDao("Bibli~user");
+        
+        $rep->body->assign('NEWUSERFORM', $newUserForm);
+        
+        return $rep;
+        
+    }
     
+    function saveNewUser(){
+        
+        $newUserForm = jForms::fill("Bibli~newUser");
+        $newUserForm->initFromRequest();
+        
+        if ($newUserForm->check()){
+            $result = $newUserForm->prepareDaoFromControls('Bibli~user');
+            
+            $newUserFactory = $result['dao'];
+            $courantUser = $result['daorec'];
+            
+            $newUserFactory->insert($courantUser);
+        }
+        
+        //Que le formulaire soit correcte ou non, on redirige vers l'accueil
+        
+        return $this->index();
+        
+    }
    
 }

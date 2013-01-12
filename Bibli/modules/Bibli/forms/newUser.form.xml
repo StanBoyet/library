@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+    
+    <input ref="login">
+        <label>Login :</label>
+    </input>
+    
+    <secret ref="password">
+        <label>Type you password</label>
+    </secret>
+    
+    <checkbox ref="admin">
+        <label>admin</label>
+        <help>Make this user an administrator</help>
+    </checkbox>
+<!--    
+    <input ref="authorFirstname" readonly="true">
+        <label>Author's firstname</label>
+        <alert type="required">The author's firstname is required</alert> 
+    </input>
+    
+    <input ref="edition">
+        <label>Edition :</label>
+    </input>
+    
+    <textarea ref="summary">
+        <label>Summary :</label>
+        <help>Try to be brief !</help>
+    </textarea>
+    
+    <captcha ref="antispam">
+        <label>Vérification anti-spam</label>
+    </captcha>-->
+    
+    <submit ref="submit">
+        <label>Save</label>
+    </submit>
+    
+</form>
+

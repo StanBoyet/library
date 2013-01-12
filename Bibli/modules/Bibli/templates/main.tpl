@@ -21,7 +21,11 @@
                             <a href="#{$COURANTBOOK->idBook}">{$COURANTBOOK->title}</a>
                         </li>
                         {/foreach}
+                    <br />
+                    <input type="button" value="Logout" onClick="window.location.href='{jurl 'jauth~login:out'}'" class="btn btn-small btn-danger ">
+                    <input type="button" value="New User" onClick="window.location.href='{jurl 'Bibli~newUser@classic'}'" class="btn btn-small btn-success ">
                     </ul>
+                    <!--<a href="{jurl 'Bibli~newUser@classic'}">New User</a>-->
                 </div>
             
             <div class="span10">
@@ -60,7 +64,7 @@
                                                 <strong>{$COURANTBOOK->title}</strong> - 
 
                                                 <a href="{jurl 'Bibli~updateBook@classic', array('idBook'=>$COURANTBOOK->idBook)}">
-                                                    Modifier
+                                                    Modify
                                                 </a>
 
                                                 <a href="{jurl 'Bibli~deleteBook@classic', array('idBook'=>$COURANTBOOK->idBook)}"
@@ -71,7 +75,7 @@
                                                        {/if}
                                                    {/foreach}
                                                    "onClick="return confirmDelete();" class="deleteLink">
-                                                   - Supprimer
+                                                   - Delete
                                                 </a>
 
                                             </li>
@@ -111,7 +115,8 @@
         {/if}<!-- Fin de test admin -->
         
        <footer>
-        <input type="button" value="Logout" onClick="window.location.href='{jurl 'jauth~login:out'}'" class="btn btn-small btn-danger ">
-    </footer>  
+    </footer> 
+    
+    
     <hr>
 </div>

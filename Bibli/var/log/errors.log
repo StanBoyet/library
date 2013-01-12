@@ -5727,3 +5727,182 @@ array (   'module' => 'Bibli',   'action' => 'default:index', )
 	9	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
 
 
+2013-01-11 16:02:53	::1	error	2013-01-11 16:02:53	::1	[810]	Impossible to get the dao  record Bibli~user corresponding to the formid 0 of Bibli~newUser form	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsBase.class.php	264
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	jFormsBase->initFromDao()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 206
+	1	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	2	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:03:53	::1	notice	2013-01-11 16:03:53	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:03:55	::1	notice	2013-01-11 16:03:55	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:03:56	::1	notice	2013-01-11 16:03:56	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:03:57	::1	notice	2013-01-11 16:03:57	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:04:03	::1	notice	2013-01-11 16:04:03	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:04:07	::1	notice	2013-01-11 16:04:07	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:04:08	::1	notice	2013-01-11 16:04:08	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:04:09	::1	notice	2013-01-11 16:04:09	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:44:16	::1	notice	2013-01-11 16:44:16	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-11 16:44:31	::1	notice	2013-01-11 16:44:31	::1	[8]	Undefined index: ADMINBOOL	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/temp/Bibli/www/compiled/templates/modules/Bibli/main_html_t.php	17
+	/Bibli/www/index.php/Bibli/
+array (   'module' => 'Bibli',   'action' => 'default:index', )
+
+	0	template_ccbc26400057e8c6c61df9cd2651f234()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/tpl/jTpl.class.php : 284
+	1	jTpl->fetch()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/response/jResponseHtml.class.php : 191
+	2	jResponseHtml->output()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 204
+	3	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:12	::1	warning	2013-01-12 19:56:12	::1	[2]	DOMDocument::load(): Opening and ending tag mismatch: hidden line 4 and form in /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml, line: 41	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	34
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	DOMDocument->load()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	2	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	3	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	4	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	5	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:12	::1	warning	2013-01-12 19:56:12	::1	[2]	DOMDocument::load(): Premature end of data in tag form line 2 in /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml, line: 43	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	34
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	DOMDocument->load()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	2	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	3	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	4	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	5	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:12	::1	error	2013-01-12 19:56:12	::1	[805]	 invalid xml syntax in jforms file (file /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml)	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	35
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	1	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	2	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	3	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	4	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:29	::1	warning	2013-01-12 19:56:29	::1	[2]	DOMDocument::load(): Opening and ending tag mismatch: hidden line 4 and form in /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml, line: 41	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	34
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	DOMDocument->load()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	2	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	3	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	4	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	5	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:29	::1	warning	2013-01-12 19:56:29	::1	[2]	DOMDocument::load(): Premature end of data in tag form line 2 in /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml, line: 43	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	34
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	DOMDocument->load()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php : 34
+	1	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	2	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	3	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	4	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	5	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
+2013-01-12 19:56:29	::1	error	2013-01-12 19:56:29	::1	[805]	 invalid xml syntax in jforms file (file /Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/forms/newUser.form.xml)	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jFormsCompiler.class.php	35
+	/Bibli/www/index.php/Bibli/default/newUser
+array (   'module' => 'Bibli',   'action' => 'default:newUser', )
+
+	0	jFormsCompiler->compile()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jIncluder.class.php : 103
+	1	jIncluder::inc()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/forms/jForms.class.php : 56
+	2	jForms::create()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/modules/Bibli/controllers/default.classic.php : 204
+	3	defaultCtrl->newUser()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/jelix/lib/jelix/core/jCoordinator.class.php : 195
+	4	jCoordinator->process()	/Users/Stan/Dropbox/Documents/HEI/ITI/Miniprojet/Bibli/www/index.php : 19
+
+
