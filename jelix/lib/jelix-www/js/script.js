@@ -1,4 +1,15 @@
 //Fichier script.js contenant la fonction confirmDelete()
+
+function confirmDelete(){
+
+        if(confirm('Do you really want to delete this entry ?')){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
 $(document).ready(function (){
     
     function confirmDelete(){
@@ -31,3 +42,4 @@ $(document).ready(function (){
     );
     
 });
+

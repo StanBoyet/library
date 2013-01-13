@@ -69,7 +69,7 @@ class defaultCtrl extends jController {
                 $orderASC = jDao::createConditions();
                 $orderASC->addItemOrder('name', 'asc');
 
-                $loanBookFactory = jDao::get("loanBook");
+                $loanBookFactory = jDao::get("loanbook");
                 $listOfAllLoanedBooks = $loanBookFactory->findBy($orderASC);
                 
                 
